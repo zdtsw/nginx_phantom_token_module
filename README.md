@@ -119,7 +119,11 @@ Download the NGINX source code from [nginx.org](<http://nginx.org/>) and then bu
 
 
 ## Testing and compatibility
-TBD
+
+The module is tested using the [Test::Nginx](<https://openresty.gitbooks.io/programming-openresty/content/testing/test-nginx.html>)
+
+Build the source code including this module as described [above](#build) and run `prove`.
+
 ## Status
  This module is still in development. Use it at your own risk!
 
