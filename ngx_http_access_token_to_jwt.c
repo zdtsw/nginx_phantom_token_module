@@ -679,3 +679,15 @@ static char *ngx_http_access_token_to_jwt_merge_loc_conf(ngx_conf_t *config, voi
 
     return NGX_CONF_OK;
 }
+
+#ifdef UNIT_TEST
+#include <criterion/criterion.h>
+
+Test(misc, failing) {
+    cr_assert(0);
+}
+
+Test(misc, passing) {
+    cr_assert(1);
+}
+#endif
